@@ -23,7 +23,7 @@
               </div>
               <div class="header-right-div ">
                 <div class="dropdown " style="right: 0px; ">
-                    <button class="btn btn-secondary dropdown-toggle dropdown-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle header-dropdown-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <i class="fa-solid fa-language"></i>
                           English
                           <ul class="dropdown-menu">
@@ -48,7 +48,7 @@
 
       <div class="home-div">
         <div>
-            <p class="home-heading">Unlimited movies, TV shows and more</p>
+            <h1 class="home-heading">Unlimited movies, TV shows and more</h1>
             <p class="home-text"> Watch anywhere. Cancel anytime.</p>
             <p class="home-text">Ready to watch? Enter your email to create or restart your membership.</p>
          <form >
@@ -65,69 +65,94 @@
       </div>
 </div>
     </section>
-    
-    <!-- Grid of 2 at line -->
     <section>  
-        <div class="container text-center" style="border: 1px red solid;">
+        <div class="container text-center grid-container">
             <div class="row row-cols-2">
-              <div class="col"  style="border: 1px green solid;">
-                Enjoy on your TV
-                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
-                
+              <div class="col grid-text">
+                <div >
+                <h1>Enjoy on your TV</h1>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+              </div>
                 </div>
-              <div class="col" style="border: 1px green solid;">
+              <div class="col img-apply" >
                 <img src="images/tv.png" alt="tv">
+                <div class="tv-video video">
+                  <video ><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"></video>
+                </div>
               </div>
             </div>
           </div>
     </section>
     <section>  
-      <div class="container text-center" style="border: 1px red solid;">
+      <div class="container text-center grid-container" >
           <div class="row row-cols-2">
-            <div class="col"  style="border: 1px green solid;">
-              <img src="images/mobile-grid-img.jpg" alt="mobile">
+            <div class="col" style="position: relative;">
+              <img src="images/mobile-grid-img.jpg" alt="mobile" style="width: 550px;">
+              <div class="div-over-img" >
+                <div >
+                  <img src="images/boxshot.png" alt="box-shot" style="width: 70px;">
+                </div>
+                <div>
+<p class="text"> Stranger Things</p>
+<a href="#">Downloading...</a>
+                </div>
+                <div>
+                  <i class="fa-solid fa-download"></i>
+                </div>
+               
               </div>
-            <div class="col" style="border: 1px green solid;">
-              Download your shows to watch offline
-Save your favourites easily and always have something to watch.
+              </div>
+            <div class="col grid-text">
+              <div>
+                <h1>Download your shows to watch offline</h1>
+                <p>Save your favourites easily and always have something to watch.</p></div>         
             </div>
           </div>
         </div>
   </section>
   <section>  
-    <div class="container text-center" style="border: 1px red solid;">
+    <div class="container text-center grid-container" >
         <div class="row row-cols-2">
-          <div class="col"  style="border: 1px green solid;">
-            Watch everywhere
-            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
-            
+          <div class="col grid-text">
+            <div>
+              <h1>Watch everywhere</h1>
+              <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
             </div>
-          <div class="col" style="border: 1px green solid;">
+            </div>
+          <div class="col img-apply" >
             <img src="images/pc-image.png" alt="pc-image">
+            <video class="pc-video video" >
+              <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
 </section>
 <section>  
-  <div class="container text-center" style="border: 1px red solid;">
+  <div class="container text-center grid-container" >
       <div class="row row-cols-2">
-        <div class="col"  style="border: 1px green solid;">
+        <div class="col grid-text"  >
           <img src="images/grid-image1.png" alt="kid-img">
           </div>
-        <div class="col" style="border: 1px green solid;">
-          Create profiles for kids
-          Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+        <div class="col grid-text" >
+          <div>
+            <h1>Create profiles for kids</h1>
+            <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+          </div>
         </div>
       </div>
     </div>
 </section>
-    <!-- dropdown content -->
     <section>
-<h1>Frequently Asked Questions</h1>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+      <div class="dropdown-container">
+<div class="dropdown-heading-div">
+  <h1 class="dropdown-heading-text">Frequently Asked Questions</h1>
+</div>
+  
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+            <div class="accordion-item ">
+              <h2 class="accordion-header ">
+                <button class="accordion-button collapsed dropdown-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   What is Netflix?
                 </button>
               </h2>
@@ -140,7 +165,7 @@ Save your favourites easily and always have something to watch.
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <button class="accordion-button collapsed dropdown-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                   How much does Netflix cost?
                 </button>
               </h2>
@@ -152,7 +177,7 @@ Save your favourites easily and always have something to watch.
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <button class="accordion-button collapsed dropdown-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                   Where can I watch?
                 </button>
               </h2>
@@ -164,7 +189,7 @@ Save your favourites easily and always have something to watch.
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed dropdown-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   How do I cancel?
                </button>
               </h2>
@@ -176,7 +201,7 @@ Save your favourites easily and always have something to watch.
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed dropdown-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   What can I watch on Netflix?
                 </button>
               </h2>
@@ -188,7 +213,7 @@ Save your favourites easily and always have something to watch.
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button class="accordion-button collapsed dropdown-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                   Is Netflix good for kids?
                 </button>
               </h2>
@@ -200,24 +225,31 @@ Save your favourites easily and always have something to watch.
               </div>
             </div>
           </div>
+        </div>
     </section>
     <section>
-      Ready to watch? Enter your email to create or restart your membership.   
-      <form >
-        <div  class="mb-3 form-div">
-           <div>
-             <input type="email" class="form-control email-box" id="exampleInputEmail1"  aria-describedby="emailHelp" placeholder="Email address">
-           </div>
-           <div>
-             <button type="submit" class="btn btn-danger getstart-btn">Get Started</button>
-           </div>
-         </div>
-   </form> 
+      <div class="dropdown-heading-div">
+        <div>
+          <p class="home-text">
+            Ready to watch? Enter your email to create or restart your membership.   
+          </p>
+          <form >
+  <div  class="mb-3 form-div ">
+               <div>
+                 <input type="email" class="form-control email-box " id="exampleInputEmail1"  aria-describedby="emailHelp" placeholder="Email address">
+               </div>
+               <div>
+                 <button type="submit" class="btn btn-danger getstart-btn ">Get Started</button>
+               </div>
+             </div>
+       </form> 
+        </div>
+        
+      </div>
    </section>
-    <!-- grid of 4 -->
 <section>
-  Questions? Call 000-800-919-1694
-    <div class="container text-center">
+    <div class="container text-left footer-link">
+  <p>Questions? Call 000-800-919-1694</p>
         <div class="row row-cols-4">
           <div class="col">FAQ</div>
           <div class="col">Help Centre</div>
@@ -234,7 +266,23 @@ Save your favourites easily and always have something to watch.
  <div class="col">Speed Test</div>
  <div class="col">Legal Notices</div>
            <div class="col">Only on Netflix</div>
-        </div>
+          </div>
+
+           <div class="dropdown " >
+            <button class="btn btn-secondary dropdown-toggle header-dropdown-button" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin: 25px 0px;">
+                  <i class="fa-solid fa-language"></i>
+                  English
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Korean</a></li>
+                    <li><a class="dropdown-item" href="#">Hindi</a></li>
+                  </ul>
+            </button>            
+          </div>
+           
+ <div class="col">Netflix India</div>
+        
+        
       </div>
 </section>
 </body>
