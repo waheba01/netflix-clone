@@ -3,7 +3,6 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
-    /* font-family: "Poppins", sans-serif; */
     font-family:  "Fustat", sans-serif;
 }
 .nav-container{
@@ -98,6 +97,9 @@ font-weight: 300;
      align-items: center;
     padding: 60px 80px; 
 }
+.section-top{
+    border-top: 5px gray solid;
+}
 .grid-text{
     text-align: left;
     display: flex;
@@ -159,7 +161,6 @@ p{
  align-items:center;
  text-align:center;
 padding-bottom: 50px;
-
 }
 .dropdown-heading-text{
     font-size: 55px; 
@@ -172,7 +173,6 @@ font-weight: 900;
     font-size: 25px;
     width: 100%;
     border: none;
-
 }
 .dropdown-button:hover{
     background-color:dimgray;
@@ -181,10 +181,10 @@ font-weight: 900;
     box-shadow: none;
   }
 
-  .dropdown-button:not(.collapsed) {
+.dropdown-button:not(.collapsed) {
     color: white;
     background-color: black;
-  }
+}
 .dropdown-content{
     background-color: black;
     color: white;
@@ -194,5 +194,5 @@ font-weight: 900;
     color:lightgray;
     font-size: 18px;
     line-height: 35px;
-    padding-bottom: 100px;
+    padding: 100px 0px;
 }
