@@ -1,2 +1,2 @@
-# netflix-clone
+# Webflox-clone
 netflix clone for fun
